@@ -1,2 +1,2 @@
 ##Connection string for local db
-CONNECTION_STRING=jdbc:sqlserver://localhost:1433;databaseName=Player_Information;integratedSecurity=true
+CONNECTION_STRING=""
