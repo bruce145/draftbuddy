@@ -1102,21 +1102,5 @@ public class StatFileParser {
     }
 
     public static void main(String args[]){
-        StatFileParser n = new StatFileParser();
-
-        //n.autoUpdate("2017");
-
-        conn = n.dbConnect();
-        for(int i = 1; i < 2; i++){
-            String format = String.format("%04d", i);
-            String gameId = "201702" + format;
-            n.setEventZones(gameId);
-        }
-
-        try{
-            conn.close();
-        }catch (SQLException e){e.printStackTrace();}
-
-
     }
 }
